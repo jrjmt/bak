@@ -110,6 +110,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat
 
+# Permissions
+# NOTE: Used to deal with permission issues caused by Gapps updates
+PRODUCT_COPY_FILES += \
+    device/google/crosshatch/permissions/pixel_permissions_product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/pixel_permissions_product.xml
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libwifi-hal:64 \
