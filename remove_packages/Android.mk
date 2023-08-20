@@ -11,7 +11,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 		YouTubeMusicPrebuilt \
 		PrebuiltGmail \
 		Aperture \
-		Camera
+		Camera \
+		WallpaperEmojiPrebuilt
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := platform
